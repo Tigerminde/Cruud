@@ -1,0 +1,93 @@
+* {
+  box-sizing: content-box;
+}
+
+body {
+  background-color: #d0e2fc;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+p {
+  margin: 10px 0;
+  font-size: 2em;
+}
+
+.main-top {
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #ffffff;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.button {
+  border: 1px solid;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: blue;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.remove {
+  background-color: red;
+}
+
+.name {
+  font-size: 30px;
+}
+
+.time {
+  color: gray;
+}
+
+.item-post, .new-post, .change-post {
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  background-color: #ffffff;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.item-post-header {
+  display: flex;
+  align-items: center;
+}
+
+.item-post-name {
+  display: flex;
+  flex-direction: column;
+}
+
+.item-post-content {
+  font-size: 11px;
+}
+
+.link-back {
+  color: white;
+  cursor: pointer;
+  background-color: blue;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.top, .submit, .item-post-footer {
+  text-align: right;
+}
+
+.top span {
+  cursor: pointer;
+}
+
+.new-post textarea, .change-post textarea {
+  width: 100%;
+}
